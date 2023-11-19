@@ -1,0 +1,50 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Here is one of many  CSS rules you will need... */
+#one, #two, #three, #four{
+    width: 25%; /* Set a specific width for your box */
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;  
+}
+#one{
+    border: 5px solid blue; /* Specify border style and color */
+    bottom: 5px;
+    right: 5px;
+}
+#two{
+    border: 5px solid green; /* Specify border style and color */
+    top: 5px;
+    right: 5px;
+}
+#three{
+    border: 5px solid orange; /* Specify border style and color */
+    top: 5px;
+    left: 5px;
+}
+#four{
+    border: 5px solid yellow; /* Specify border style and color */
+    bottom: 5px;
+    left: 5px;
+}
+#link a{
+    color:#eeeeee !important;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 1.64rem;
+    opacity: 1;
+    line-height: 20px;
+    background-color:#0a4b33;
+}
